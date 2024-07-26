@@ -1,9 +1,6 @@
 .DS_Store
 node_modules
-static/kener
 build
-config/monitors.yaml
-config/site.yaml
 /.svelte-kit
 /src/lib/.kener
 /package

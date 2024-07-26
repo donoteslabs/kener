@@ -1,0 +1,26 @@
+- name: Initialization Server
+  description: Server used to check and authenticate user sessions
+  tag: "init-server"
+  image: "/logo.png"
+  api:
+      method: GET
+      url: https://donotes-server.com:9090
+- name: Account server
+  description: Server for signing in and fetching account details
+  tag: "account-server"
+  api:
+      method: GET
+      url: https://donotes-server.com:7070
+  image: "/logo.png"
+- name: File server
+  description: Server used to create, modify and delete files
+  tag: "file-server"
+  defaultStatus: "UP"
+  image: "/logo.png"
+- name: Note Server
+  description: Server that fetches your note-data, saves your changes and authenticates access to notes
+  tag: "note-server"
+  image: "/logo.png"
+  api:
+      method: GET
+      url: https://donotes-server.com:5050
