@@ -5,6 +5,7 @@ build
 /src/lib/.kener
 /package
 .env
+.vercel
 .env.*
 !.env.example
 vite.config.js.timestamp-*
