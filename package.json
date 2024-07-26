@@ -27,8 +27,8 @@
 		"url": "https://github.com/rajnandan1/kener.git"
 	},
 	"scripts": {
-		"dev": "vite dev",
-		"build": "node scripts/check.js && vite build",
+		"dev": "vite dev",    
+		"build": "NODE_OPTIONS='--max-old-space-size=1024' node scripts/check.js && NODE_OPTIONS='--max-old-space-size=1024' vite build",
 		"serve": "node prod.js",
 		"kener:dev": "cross-env NODE_ENV=development PUBLIC_KENER_FOLDER=./static/kener node scripts/check.js && concurrently \"cross-env NODE_ENV=development PUBLIC_KENER_FOLDER=./static/kener node dev.js\" \"cross-env NODE_ENV=development PUBLIC_KENER_FOLDER=./static/kener vite dev\"",
 		"kener:dev-monitor": "cross-env NODE_ENV=development PUBLIC_KENER_FOLDER=./static/kener  node dev.js",
