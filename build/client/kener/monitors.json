@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Initialization Server",
+        "description": "Server used to check and authenticate user sessions",
+        "tag": "init-server",
+        "image": "/logo.png",
+        "api": {
+            "method": "GET",
+            "url": "https://donotes-server.com:9090",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "initialization-server",
+        "dayDegradedMinimumCount": 1,
+        "dayDownMinimumCount": 1,
+        "includeDegradedInDowntime": false,
+        "path0Day": "./static/kener/initialization-server.0day.utc.json",
+        "path90Day": "./static/kener/initialization-server.90day.utc.json",
+        "hasAPI": true
+    },
+    {
+        "name": "Account server",
+        "description": "Server for signing in and fetching account details",
+        "tag": "account-server",
+        "api": {
+            "method": "GET",
+            "url": "https://donotes-server.com:7070",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "image": "/logo.png",
+        "folderName": "account-server",
+        "dayDegradedMinimumCount": 1,
+        "dayDownMinimumCount": 1,
+        "includeDegradedInDowntime": false,
+        "path0Day": "./static/kener/account-server.0day.utc.json",
+        "path90Day": "./static/kener/account-server.90day.utc.json",
+        "hasAPI": true
+    },
+    {
+        "name": "File server",
+        "description": "Server used to create, modify and delete files",
+        "tag": "file-server",
+        "defaultStatus": "UP",
+        "image": "/logo.png",
+        "folderName": "file-server",
+        "dayDegradedMinimumCount": 1,
+        "dayDownMinimumCount": 1,
+        "includeDegradedInDowntime": false,
+        "path0Day": "./static/kener/file-server.0day.utc.json",
+        "path90Day": "./static/kener/file-server.90day.utc.json",
+        "hasAPI": false
+    },
+    {
+        "name": "Note Server",
+        "description": "Server that fetches your note-data, saves your changes and authenticates access to notes",
+        "tag": "note-server",
+        "image": "/logo.png",
+        "api": {
+            "method": "GET",
+            "url": "https://donotes-server.com:5050",
+            "eval": "(function (statusCode, responseTime, responseData) {\n\tlet statusCodeShort = Math.floor(statusCode/100);\n    if(statusCode == 429 || (statusCodeShort >=2 && statusCodeShort <= 3)) {\n        return {\n\t\t\tstatus: 'UP',\n\t\t\tlatency: responseTime,\n        }\n    } \n\treturn {\n\t\tstatus: 'DOWN',\n\t\tlatency: responseTime,\n\t}\n})",
+            "timeout": 10000
+        },
+        "folderName": "note-server",
+        "dayDegradedMinimumCount": 1,
+        "dayDownMinimumCount": 1,
+        "includeDegradedInDowntime": false,
+        "path0Day": "./static/kener/note-server.0day.utc.json",
+        "path90Day": "./static/kener/note-server.90day.utc.json",
+        "hasAPI": true
+    }
+]

@@ -1,0 +1,39 @@
+{
+    "title": "DoNotes",
+    "home": "/",
+    "logo": "/logo.png",
+    "github": {
+        "owner": "donoteslabs",
+        "repo": "issues",
+        "incidentSince": 48
+    },
+    "metaTags": {
+        "og:title": "DoNotes - Status",
+        "og:type": "website",
+        "og:site_name": "DoNotes Status"
+    },
+    "nav": [
+        {
+            "name": "Home",
+            "url": "https://donotes.app"
+        },
+        {
+            "name": "Open DoNotes",
+            "url": "https://v8.donotes.app"
+        }
+    ],
+    "hero": {
+        "title": "DoNotes Status",
+        "subtitle": "Check the live status of DoNotes servers"
+    },
+    "footerHTML": "Made using \n<a href=\"https://github.com/rajnandan1/kener\" target=\"_blank\" rel=\"noreferrer\" class=\"font-medium underline underline-offset-4\">\n  Kener\n</a>\nan open source status page system\n",
+    "i18n": {
+        "defaultLocale": "en",
+        "locales": {
+            "en": "English",
+            "hi": "हिन्दी",
+            "zh-CN": "中文",
+            "ja": "日本語"
+        }
+    }
+}

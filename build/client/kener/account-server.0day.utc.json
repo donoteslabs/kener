@@ -1,0 +1,132 @@
+{
+  "1722014520": {
+    "status": "DOWN",
+    "latency": 10038,
+    "type": "timeout"
+  },
+  "1722014580": {
+    "status": "DOWN",
+    "latency": 10015,
+    "type": "timeout"
+  },
+  "1722014640": {
+    "status": "DOWN",
+    "latency": 10018,
+    "type": "timeout"
+  },
+  "1722014700": {
+    "status": "DOWN",
+    "latency": 10018,
+    "type": "timeout"
+  },
+  "1722014760": {
+    "status": "DOWN",
+    "latency": 10009,
+    "type": "timeout"
+  },
+  "1722014820": {
+    "status": "DOWN",
+    "latency": 10010,
+    "type": "timeout"
+  },
+  "1722014940": {
+    "status": "DOWN",
+    "latency": 10045,
+    "type": "timeout"
+  },
+  "1722015000": {
+    "status": "DOWN",
+    "latency": 10017,
+    "type": "timeout"
+  },
+  "1722015060": {
+    "status": "DOWN",
+    "latency": 10015,
+    "type": "timeout"
+  },
+  "1722015120": {
+    "status": "DOWN",
+    "latency": 10017,
+    "type": "timeout"
+  },
+  "1722015480": {
+    "status": "DOWN",
+    "latency": 10018,
+    "type": "timeout"
+  },
+  "1722015600": {
+    "status": "DOWN",
+    "latency": 10014,
+    "type": "timeout"
+  },
+  "1722015660": {
+    "status": "DOWN",
+    "latency": 10013,
+    "type": "timeout"
+  },
+  "1722015720": {
+    "status": "DOWN",
+    "latency": 10019,
+    "type": "timeout"
+  },
+  "1722015780": {
+    "status": "DOWN",
+    "latency": 10012,
+    "type": "timeout"
+  },
+  "1722015840": {
+    "status": "DOWN",
+    "latency": 10016,
+    "type": "timeout"
+  },
+  "1722015900": {
+    "status": "DOWN",
+    "latency": 10010,
+    "type": "timeout"
+  },
+  "1722015960": {
+    "status": "DOWN",
+    "latency": 10013,
+    "type": "timeout"
+  },
+  "1722016020": {
+    "status": "DOWN",
+    "latency": 10016,
+    "type": "timeout"
+  },
+  "1722016080": {
+    "status": "DOWN",
+    "latency": 10021,
+    "type": "timeout"
+  },
+  "1722016140": {
+    "status": "DOWN",
+    "latency": 10009,
+    "type": "timeout"
+  },
+  "1722016200": {
+    "status": "UP",
+    "latency": 127,
+    "type": "realtime"
+  },
+  "1722016260": {
+    "status": "UP",
+    "latency": 118,
+    "type": "realtime"
+  },
+  "1722016320": {
+    "status": "UP",
+    "latency": 57,
+    "type": "realtime"
+  },
+  "1722016380": {
+    "status": "UP",
+    "latency": 63,
+    "type": "realtime"
+  },
+  "1722016440": {
+    "status": "UP",
+    "latency": 61,
+    "type": "realtime"
+  }
+}
