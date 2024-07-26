@@ -57,7 +57,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^5.4.1",
 		"axios": "^1.6.2",
 		"badge-maker": "^3.3.1",
 		"bits-ui": "^0.9.9",
