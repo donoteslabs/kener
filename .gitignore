@@ -13,3 +13,11 @@ nodemon.json
 .okgit/
 config/static/*
 !config/static/.kener
+static/kener/account-server.0day.utc.json
+static/kener/account-server.90day.utc.json
+static/kener/file-server.0day.utc.json
+static/kener/file-server.90day.utc.json
+static/kener/initialization-server.0day.utc.json
+static/kener/initialization-server.90day.utc.json
+static/kener/note-server.0day.utc.json
+static/kener/note-server.90day.utc.json
