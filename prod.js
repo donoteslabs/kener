@@ -3,8 +3,6 @@ import express from "express";
 import { STATUS_OK } from "./scripts/check.js";
 import { Startup } from "./scripts/startup.js";
 import sitemap from "./scripts/sitemap.js";
-import https from "https";
-import fs from "fs";
 const PORT = process.env.PORT || 3000;
 console.log("STATUS_OK", STATUS_OK);
 Startup();
@@ -27,13 +25,6 @@ app.get("/sitemap.xml", (req, res) => {
 
 app.use(handler);
 
-// Read SSL certificate files
-const options = {
-	key: fs.readFileSync('/etc/letsencrypt/live/donotes-server.com/privkey.pem'),
-	cert: fs.readFileSync('/etc/letsencrypt/live/donotes-server.com/fullchain.pem'),
-};
-
-// Create an HTTPS server
-https.createServer(options, app).listen(PORT, () => {
+app.listen(PORT, () => {
 	console.log("Kener is running on port " + PORT + "!");
 });
