@@ -21,3 +21,4 @@ static/kener/initialization-server.0day.utc.json
 static/kener/initialization-server.90day.utc.json
 static/kener/note-server.0day.utc.json
 static/kener/note-server.90day.utc.json
+build/client/kener/*
